@@ -165,5 +165,148 @@ h2.font-about {
     margin-top: 25px;
 }
 /*hết section-about*/
+/*// start footer*/
+.footer {
+    padding: 40px 0;
+}
+.bg-true-black {
+    background-color: #000 !important;
+}
+.p-0 {
+    padding: 0!important;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer-bg {
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: -20px;
+}
+
+.pt-30 {
+    padding-top: 30px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.footer .footer-social, .footer .footer-social .social-title{
+    margin-bottom: 20px;
+}
+
+.footer .footer-social .social-title {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+h4.social-title {
+    padding-left: 29px;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+ul,ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .footer-social ul li, .footer .footer-social .post {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+.footer-content {
+    font-size: 20px;
+    color: #fff;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.pr-10 {
+    padding-right: 10px !important;
+}
+
+.footer a {
+    color: #888;
+}
+
+.social-icons {
+    list-style: outside none none;
+    margin: 28px 0;
+    padding: 0;
+}
+.mt-20 {
+    margin-top: 20px !important;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.text-left {
+    text-align: left;
+}
+
+.social-icons > li:first-child {
+    padding-left: 35px;
+}
+.social-icons > li {
+    display: inline-block;
+}
+.list-inline>li {
+    display: inline-block;
+    padding-right: 3px;
+    padding-left: 5px;
+}
+
+.footer .social-icons li a {
+    background: transparent;
+}
+.footer a {
+    color: #888;
+}
+.fab {
+    font-size: 30px;
+    background: #eee;
+    color: red;
+}
+
+.social-icons a {
+    background: #eee;
+    border-radius: 50%;
+    display: block;
+    font-size: 74px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 1px;
+    text-align: center;
+    width: 40px;
+}
 
 
+
+/*end footer*/
