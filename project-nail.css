@@ -1,0 +1,169 @@
+*{margin: 0; padding: 0}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+/*section-1*/
+.logo img {position: fixed;width: 160px;height:50px;top: 9px;z-index: 1000;}
+
+.menu-wrapper {
+    width: 100%;
+    height: 70px;
+    background: #00000045;
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+}
+
+.menuzord {
+    width: 100%;
+    position: relative;
+    top:1px;
+}
+
+/*thay táº¡m*/
+li.nav-item a {
+    color: #ffffff;
+}
+
+
+.menuzord ul.dropdown li {
+    clear: both;
+    width: 100%;
+    border: 0 none;
+    font-size: 15px;
+    position: relative;
+}
+
+.menuzord ul.dropdown li a {
+    width: 100%;
+    background: none;
+    padding: 10px 22px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    clear: both;
+    position: relative;
+    outline: 0;
+
+}
+
+.menuzord ul.dropdown, .menuzord ul.dropdown li ul.dropdown {
+    background: #00cbd9;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 99;
+    min-width: 180px;
+    white-space: nowrap;
+    opacity: 0;
+    overflow: hidden;
+
+}
+button {
+    position: fixed;
+}
+button.carousel-control-prev  {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 35px;
+    top: 288px;
+    color: #fff;
+    text-align: center;
+    transition: opacity 0.15s ease;
+    opacity: 0.2;
+}
+
+button.carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    top: 288px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.2;
+    transition: opacity 0.15s ease;
+}
+/*hết section và header*/
+
+
+/*section-2*/
+/*section-about*/
+.main-content {
+    overflow: visible !important;
+    z-index: 5;
+    position: relative;
+}
+.main-content .container .pt-0 {
+    padding-top: 0!important;
+}
+.pb-10 {
+    padding-bottom: 10px !important;
+}
+.p-30 {
+    padding: 30px !important;
+}
+.nail-content {
+    margin-top: -400px;
+    background: rgb(255, 255, 255) !important;
+}
+h2.font-about {
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 40px;
+    font-weight: 400;
+
+}
+.main-content .subtitle-divider{
+    position: relative;
+    height: 30px;
+}
+
+.subtitle-divider::before, .subtitle-divider::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 310px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.subtitle-divider::after {
+    background: #00cbd9 none repeat scroll 0 0;
+    top: 14px;
+    width: 110px;
+    height: 4px;
+}
+.icon-box.media.mt-30 {
+    margin-top: 60px;
+}
+.icon-box img {}
+.icon-box p.text-about {}
+
+.button-about {
+    margin-top: 25px;
+}
+/*hết section-about*/
+
+
