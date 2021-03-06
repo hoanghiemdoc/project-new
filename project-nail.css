@@ -8,7 +8,7 @@ body {
     letter-spacing: 1px;
 }
 /*section-1*/
-.logo img {position: fixed;width: 160px;height:50px;top: 9px;z-index: 1000;}
+.logo img {position: fixed;width: 160px;height:50px;right: 36px;top: 4px;z-index: 1000;}
 
 .menu-wrapper {
     width: 100%;
@@ -25,7 +25,7 @@ body {
     top:1px;
 }
 
-/*thay táº¡m*/
+/*thay tÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡m*/
 li.nav-item a {
     color: #ffffff;
 }
@@ -63,9 +63,15 @@ li.nav-item a {
     min-width: 180px;
     white-space: nowrap;
     opacity: 0;
-    overflow: hidden;
+    visibility: hidden;
 
 }
+
+.item-insert{
+    opacity: 1;
+    overflow: visible;
+}
+
 button {
     position: fixed;
 }
@@ -102,15 +108,15 @@ button.carousel-control-next {
     opacity: 0.2;
     transition: opacity 0.15s ease;
 }
-/*hết section và header*/
+/*hÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿t section vÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  header*/
 
 
 /*section-2*/
 /*section-about*/
 .main-content {
     overflow: visible !important;
-    z-index: 5;
     position: relative;
+    /* margin-top: 100px; */
 }
 .main-content .container .pt-0 {
     padding-top: 0!important;
@@ -164,7 +170,8 @@ h2.font-about {
 .button-about {
     margin-top: 25px;
 }
-/*hết section-about*/
+/*hÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿t section-about*/
+
 /*// start footer*/
 .footer {
     padding: 40px 0;
@@ -192,7 +199,6 @@ h2.font-about {
 
 #footer-bg {
     background-repeat: no-repeat;
-    background-position: left;
     margin-top: -20px;
 }
 
@@ -249,15 +255,18 @@ ul,ol {
 .pr-10 {
     padding-right: 10px !important;
 }
+p.footer-content {
+    padding-top: 59px !important;
+}
 
 .footer a {
     color: #888;
 }
 
 .social-icons {
-    list-style: outside none none;
-    margin: 28px 0;
-    padding: 0;
+    /* list-style: outside none none; */
+    margin: 28px 24px;
+    float: right;
 }
 .mt-20 {
     margin-top: 20px !important;
@@ -277,6 +286,10 @@ ul,ol {
 .social-icons > li {
     display: inline-block;
 }
+
+li.footer-content {
+    padding-top: 7px;
+}
 .list-inline>li {
     display: inline-block;
     padding-right: 3px;
@@ -285,26 +298,34 @@ ul,ol {
 
 .footer .social-icons li a {
     background: transparent;
+    z-index: 199;
 }
-.footer a {
-    color: #888;
-}
+
 .fab {
     font-size: 30px;
-    background: #eee;
-    color: red;
+    background: #eee0;
+    color: #888;
+    z-index: 8;
+}
+
+i.fab:hover {
+    color: white;
 }
 
 .social-icons a {
     background: #eee;
     border-radius: 50%;
     display: block;
-    font-size: 74px;
+    font-size: 39px;
     height: 40px;
     line-height: 40px;
     margin-right: 1px;
     text-align: center;
-    width: 40px;
+    width: 45px;
+    z-index: 3;
+}
+.social-icons a:hover i {
+    color: #fff;
 }
 
 
