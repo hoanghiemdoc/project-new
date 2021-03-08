@@ -1,70 +1,175 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pages</title>
-    <link rel="stylesheet" href="bootstrap-5.0.0-beta1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="project-pages.css">
-    <script src="bootstrap-5.0.0-beta1-dist/js/bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pages</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic,700italic,300italic,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="java.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,400italic,700italic,300italic,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="font awesome-css-icon/css/all.css">
-
+    <link rel="stylesheet" href="project-pages.css">
+    <link rel="stylesheet" href="tutorial-home.css">
 </head>
 <body>
-<div class="header-page"><!--bắt đầu phần header-->
-    <div class="header-navbar-page"></div>
-    <div class="container">
-        <div class="menuzord-page">
-            <div class="logo">
-                <a href=""><img src="images/logo-wide.png" alt=""></a>
+<header class="header">
+    <div style="" class="container">
+        <div class="row">
+            <div class="col-sm-12 po-s">
+                <div class="toggle-btn">
+                    <div class="icon menu1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="logo col-sm-1">
+                    <a href="/"><img src="images/logo-wide.png"width="1820px"height="1280px" alt=""></a>
+                </div>
+                <nav class="nav col-sm-11">
+                    <ul class="main-nav">
+                        <li class="active">
+                            <a data-parent-menu="Home" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a data-parent-menu="About" href="#">Pages</a>
+                        </li>
+                        <li>
+                            <a data-parent-menu="Company" href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a data-parent-menu="Categories" href="#">Blogs</a>
+                        </li>
+                        <li>
+                            <a data-parent-menu="News" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="menu-wrapper">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Home</a>
-                    </li>
+        </div>
+    </div>
+    <nav class="nav-responsive">
+        <ul class="main-nav-responsive">
+            <li class="">
+                <a href="#" title="Home" data-parent-menu="Home">Home</a>
+            </li>
+            <li class="">
+                <a href="#" title="About" data-parent-menu="Brands">Brands</a>
+                <div style="display: none" class="sub-menu-responsive">
+                    <ul>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                        <li><a href="#" title="Title">Menu Item</a></li>
+                    </ul>
+                </div>
+                <span class="fa fa-angle-down nav-arrow"></span>
+            </li>
+            <li class="">
+                <a href="#" title="Company" data-parent-menu="Company">Company</a>
+                <div style="display: none" class="sub-menu-responsive">
+                    <ul>
+                        <li><a href="#" title="Company">Company</a></li>
+                        <li><a href="#" title="Executive Board">Executive Board</a></li>
+                        <li><a href="#" title="Supervisory Board">Supervisory Board</a></li>
+                    </ul>
+                </div>
+                <span class="fa fa-angle-down nav-arrow"></span>
+            </li>
+            <li class="">
+                <a href="#" title="Investor-Relations" data-parent-menu="Investor-Relations">Investor Relations</a>
+                <div style="display: none" class="sub-menu-responsive">
+                    <ul>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                    </ul>
+                </div>
+                <span class="fa fa-angle-down nav-arrow"></span>
+            </li>
+            <li class="active">
+                <a href="/en/careers/" title="Careers" data-parent-menu="Careers">Careers</a>
+                <div style="display: none" class="sub-menu-responsive">
+                    <ul>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                        <li><a href="#" title="Menu Item">Menu Item</a></li>
+                    </ul>
+                </div>
+                <span class="fa fa-angle-down nav-arrow"></span>
+            </li>
+            <li class="">
+                <a href="/en/News/" title="News" data-parent-menu="News">News</a>
+            </li>
+            <li>
+                <a href="#" title="Languages">Languages</a>
+                <div style="display: none" class="sub-menu-responsive">
+                    <ul>
+                        <li class="active">
+                            <a href="/en/careers/">English</a>
+                        </li>
+                        <li class="">
+                            <a href="/de/karriere/">Deutsch</a>
+                        </li>
+                    </ul>
+                </div>
+                <span class="fa fa-angle-down nav-arrow"></span>
+            </li>
+            <li class="function-addon">
+                <form method="get" action="/en/search-results/" class="form-search">
+                    <input value="" name="searchText" placeholder="Search" class="input-form">
+                    <span class="ktm-icon-search"></span>
+                    <a href="#" class="clear-input">x</a>
+                </form>
+            </li>
+        </ul>
+    </nav>
+</header>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PAGES
-                            <span class="indicator">
-                            <i class="fa fa-angle-down"></i>
-                        </span>
-                        </a>
-                        <ul class="dropdown">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Tutorial</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Library
-                            <span class="indicator">
-                            <i class="fa fa-angle-down"></i>
-                        </span>
-                        </a>
-                        <ul class="dropdown">
-                            <li><a href="#">Kids</a></li>
-                            <li><a href="#">Adults</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog
-                            <span class="indicator">
-                                <i class="fa fa-angle-down"></i>
-                            </span>
-                        </a>
-                        <ul class="dropdown">
-                            <li><a href="#">Products & Accessories</a></li>
-                            <li><a href="#">Care Information</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">CONTACT</a>
-                    </li>
+<div id="About-sub-menu" class="sub-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul>
+                    <li><a href="#" title="Menu Item">About Us</a></li>
+                    <li><a href="#" title="Menu Item">Tutorial</a></li>
                 </ul>
             </div>
         </div>
-
+    </div>
+</div>
+<div id="Company-sub-menu" class="sub-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul>
+                    <li><a href="#" title="Menu Item">Kids</a></li>
+                    <li><a href="#" title="Menu Item">Adults</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="Categories-sub-menu" class="sub-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <ul>
+                    <li><a href="#" title="Menu Item">Products & Accessories</a></li>
+                    <li><a href="#" title="Menu Item">Care Information</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div><!--kết thúc phần header-->
 
@@ -103,7 +208,103 @@
 </div><!--end-section-maind-content-->
 
 
+<section id="services" class="img-absolute-parent overflow-visible pb-50">
+    <div class="container mt-50">
+        <div class="section-title">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2 class="font-italic">
+                        <span>Tutorial</span>
+                    </h2>
+                    <p class="subtitle">Here are the steps to create a basic and beautiful nail that we would like to give to ladies.
+                    </p>
+                    <div class="subtitle-divider">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-6 text-center p-0">
+                    <div class="services-items overlay-lightblue divider">
+                        <div class="p-30 pl-40 pr-40">
+                            <h4>
+                                <a href="#" class="service-title"> Step1 </a>
+                            </h4>
+                            <p class="text-back"> One of the basic nail steps is to clean your nails. First, you must remove the remaining old nail polish with cotton balls and paint remover to help the new polish retain its color and adhere to your nails.
+                            </p>
+                            <a href="page/project-page.html" class="btn btn-colored btn-text-back-hover-blue">READ MORE </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center p-0">
+                    <div class="services-items overlay-lightgray divider">
+                        <div class="p-30 pl-40 pr-40">
+                            <h4>
+                                <a href="#" class="service-title"> Step2 </a>
+                            </h4>
+                            <p class="text-back"> One of the basic nail steps is to clean your nails. First, you must remove the remaining old nail polish with cotton balls and paint remover to help the new polish retain its color and adhere to your nails.
+                            </p>
+                            <a href="page/project-page.html" class="btn btn-colored btn-text-back-hover-blue">READ MORE </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center p-0">
+                    <div class="services-items overlay-lightyellow divider">
+                        <div class="p-30 pl-40 pr-40">
+                            <h4>
+                                <a href="#" class="service-title"> Step3 </a>
+                            </h4>
+                            <p class="text-back"> One of the basic nail steps is to clean your nails. First, you must remove the remaining old nail polish with cotton balls and paint remover to help the new polish retain its color and adhere to your nails.
+                            </p>
+                            <a href="page/project-page.html" class="btn btn-colored btn-text-back-hover-blue">READ MORE </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center p-0">
+                    <div class="services-items overlay-lightblue divider">
+                        <div class="p-30 pl-40 pr-40">
+                            <h4>
+                                <a href="#" class="service-title"> Step4 </a>
+                            </h4>
+                            <p class="text-back"> One of the basic nail steps is to clean your nails. First, you must remove the remaining old nail polish with cotton balls and paint remover to help the new polish retain its color and adhere to your nails.
+                            </p>
+                            <a href="page/project-page.html" class="btn btn-colored btn-text-back-hover-blue">READ MORE </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center p-0">
+                    <div class="services-items overlay-lightgray divider">
+                        <div class="p-30 pl-40 pr-40">
+                            <h4>
+                                <a href="#" class="service-title"> Step5 </a>
+                            </h4>
+                            <p class="text-back"> One of the basic nail steps is to clean your nails. First, you must remove the remaining old nail polish with cotton balls and paint remover to help the new polish retain its color and adhere to your nails.
+                            </p>
+                            <a href="page/project-page.html" class="btn btn-colored btn-text-back-hover-blue">READ MORE </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center p-0">
+                    <div class="services-items overlay-lightyellow divider">
+                        <div class="p-30 pl-40 pr-40">
+                            <h4>
+                                <a href="#" class="service-title"> Step6 </a>
+                            </h4>
+                            <p class="text-back"> One of the basic nail steps is to clean your nails. First, you must remove the remaining old nail polish with cotton balls and paint remover to help the new polish retain its color and adhere to your nails.
+                            </p>
+                            <a href="page/project-page.html" class="btn btn-colored btn-text-back-hover-blue">READ MORE </a>
+                        </div>
+                    </div>
+                </div>
 
-<script src="project-pages.js"></script>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="nail.js"></script>
 </body>
 </html>
