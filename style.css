@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    /*background: url(https://images.unsplash.com/photo-1460501501851-d5946a18e552?ixlib=rb-0.3.5&q=80&fm=jpg) no-repeat top center;*/
     background-size: cover;
 }
 
@@ -11,7 +10,7 @@ body {
 
 header {
     position: relative;
-    padding: 50px 0 0;
+    padding: 0px 0 0;
 
 }
 
@@ -110,7 +109,7 @@ header #hover-line {
     width: 100%;
     top: 100px;
     left: 0;
-    z-index: 1;
+    z-index: 30;
     background: rgba(0, 0, 0, 0.5);
     visibility: hidden;
     opacity: 0;
@@ -238,6 +237,22 @@ li#hover-line {
     }
 
 }
+div#About-sub-menu {
+     margin-top: 48px;
+     z-index: 39;
+ }
+
+div#Company-sub-menu {
+    margin-top: 54px;
+}
+
+div#Categories-sub-menu {
+    margin-top: 49px;
+}
+
+
+
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width:768px) {
