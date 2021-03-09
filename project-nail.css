@@ -108,7 +108,7 @@ button.carousel-control-next {
     opacity: 0.2;
     transition: opacity 0.15s ease;
 }
-/*hÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿t section vÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  header*/
+/*hÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿t section vÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â  header*/
 
 
 /*section-2*/
@@ -171,6 +171,63 @@ h2.font-about {
     margin-top: 25px;
 }
 /*hÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â¿t section-about*/
+
+/*section-blog*/
+
+
+.button-blog {
+    color: rgb(0, 0, 0);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    border: 1px solid rgb(205, 205, 205);
+    position: relative;
+}
+.sim-button {
+    line-height: 38px;
+    height: 38px;
+    text-align: center;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 22%;
+    cursor: pointer;
+}
+
+.button-blog::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    background-color: red;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: scale(0.5, 1);
+    transform: scale(0.5, 1);
+}
+.button-blog:hover::before{
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.button-blog span {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*end-section-blog*/
 
 /*// start footer*/
 .footer {
@@ -240,7 +297,7 @@ ul,ol {
     padding-bottom: 10px;
 }
 .footer-content {
-    font-size: 20px;
+    font-size:17px;
     color: #fff;
 }
 
@@ -327,7 +384,119 @@ i.fab:hover {
 .social-icons a:hover i {
     color: #fff;
 }
+span.inform1{
+    padding-left: 10px;
+}
+span.inform2{
+    padding-left: 71px;
+}
+span.inform3{
+    padding-left: 85px;
+}
 
+/*sửa phần footer*/
+.fane-page img {
+    padding-left: 32px;
+    margin-top: 17px;
+}
 
+ul.social-inform {
+    padding-left: 31px;
+}
+/*end-footer*/
+/*cho de sua phan tutorial*/
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.overlay-lightblue{
+    background-color: rgba(177,218,232,.95);
+}
+.overlay-lightgray{
+    background-color: rgba(222,222,222,0.95);
+}
+.overlay-lightyellow{
+    background-color: #c5c38f;
+}
+/*ket thuc phan sua tutorial*/
 
+div#footer{
+    margin-top: 50px;
+    clear: both;
+}
+/*bat dau phan gallery*/
+.Gallery-Home{
+    width: 1200px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Gallery1{
+    width: 600px;
+    height: 500px;
+    background-color: grey;
+    float: left;
+}
+.Gallery2{
+    width: 550px;
+    height: 240px;
+    background-color: #b73737;
+    float: left;
+    margin-left: 15px;
+}
+.Gallery3{
+    width: 230px;
+    height: 245px;
+    background-color: #37b784;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.Gallery4{
+    width: 305px;
+    height: 500px;
+    background-color: white;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.Gallery5{
+    width: 200px;
+    height: 240px;
+    background-color: #4eb737;
+    float: left;
+    margin-top: -240px;
+}
+.Gallery6{
+    width: 385px;
+    height: 240px;
+    background-color: #b7375b;
+    float: left;
+    margin-top: -240px;
+    margin-left: 215px;
+}
+.Gallery7{
+    width: 230px;
+    height: 240px;
+    background-color: #b7a637;
+    float: left;
+    margin-top: -240px;
+    margin-left: 615px;
+}
+/*ket thuc phan gallery*/
 /*end footer*/
