@@ -200,8 +200,8 @@ header #hover-line {
 .col-sm-12.po-s {
     position: fixed;
     left: 0;
-    top: -21px;
-    background: #00000033;
+    top: -29px;
+    background: #00000078;
     z-index: 10;
 }
 
@@ -238,9 +238,9 @@ li#hover-line {
 
 }
 div#About-sub-menu {
-     margin-top: 48px;
-     z-index: 39;
- }
+    margin-top: 48px;
+    z-index: 39;
+}
 
 div#Company-sub-menu {
     margin-top: 54px;
@@ -471,7 +471,11 @@ div#Categories-sub-menu {
     }
 
 }
-
+/*sua phần menu*/
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
 
 
 .search-form .input-form {
@@ -567,3 +571,4 @@ div#Categories-sub-menu {
     }
 
 }
+
